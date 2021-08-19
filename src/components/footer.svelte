@@ -1,9 +1,17 @@
 <footer>
-	<h3>Made by Raphaël DAMEVIN</h3>
+	<span>Made by <a href="https://github.com/damevin">Raphaël DAMEVIN</a></span>
 </footer>
 
 <style>
-	h3 {
-		text-align: center;
+	footer {
+		display: flex;
+		justify-content: center;
+	}
+	a {
+		color: #f43b86;
+	}
+
+	a:hover {
+		color: #3d087b;
 	}
 </style>
